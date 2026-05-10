@@ -87,10 +87,13 @@ Glowly/
 
 1️⃣ Clone Repository
 git clone https://github.com/sanika-kulkarni-sel/Glow_Beauty.git
+
 2️⃣ Move Project to XAMPP/LAMPP htdocs
 sudo mv Glow_Beauty /opt/lampp/htdocs/
+
 3️⃣ Start Apache & MySQL
 sudo /opt/lampp/lampp start
+
 4️⃣ Create Database
 
 Open:
@@ -100,6 +103,7 @@ http://localhost/phpmyadmin
 Create database:
 
 CREATE DATABASE glowly;
+
 5️⃣ Import Tables
 
 Run all SQL table commands provided in the project setup.
@@ -109,6 +113,7 @@ Run all SQL table commands provided in the project setup.
 Inside project folder:
 
 composer install
+
 7️⃣ Configure Database
 
 Update: config/db.php
@@ -119,6 +124,7 @@ $host = "127.0.0.1";
 $username = "root";
 $password = "";
 $database = "glowly";
+
 8️⃣ Configure SMTP
 
 Update: config/mail.php
