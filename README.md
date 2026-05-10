@@ -86,7 +86,7 @@ Glowly/
 ⚙️ Installation & Setup
 
 1️⃣ Clone Repository
-git clone https://github.com/YOUR_USERNAME/Glow_Beauty.git
+git clone https://github.com/sanika-kulkarni-sel/Glow_Beauty.git
 2️⃣ Move Project to XAMPP/LAMPP htdocs
 sudo mv Glow_Beauty /opt/lampp/htdocs/
 3️⃣ Start Apache & MySQL
